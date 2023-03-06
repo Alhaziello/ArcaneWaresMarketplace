@@ -2,7 +2,7 @@ import express from "express";
 import * as dotenv from "dotenv";
 import cors from "cors";
 
-import connectDB from "./mongoDB/connect.js";
+import connectDB from "./mongodb/connect.js";
 import userRouter from "./routes/user.route.js";
 import itemRouter from "./routes/item.route.js";
 
