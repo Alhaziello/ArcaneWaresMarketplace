@@ -1,5 +1,5 @@
-import Item from "../mongoDB/models/item.js";
-import User from "../mongoDB/models/user.js";
+import Item from "../mongodb/models/item.js";
+import User from "../mongodb/models/user.js";
 
 import mongoose from "mongoose";
 import * as dotenv from "dotenv";
